@@ -10,6 +10,7 @@ No entrego pantallas sueltas: diseño el sistema completo, desde el modelo de da
 | Línea de trabajo | De qué se trata |
 |---|---|
 | **Comercio y membresías** | Suite de plugins propios para WooCommerce: membresías con derechos de acceso, reservas con Google Calendar, cobro por sesión, paquete o suscripción, y adaptadores de pago (Stripe y PayPal). |
+| **CRM y backend empresarial** | API en Java 21 y Spring Boot con seguridad JWT, migraciones Flyway, PostgreSQL y Redis; interfaz en Angular 21; contrato de API, sistema de diseño y puertas de calidad medibles antes de dar algo por terminado. |
 | **Plataformas de aprendizaje (LMS)** | Experiencias de curso en WordPress y en aplicaciones propias: contenido por módulos, goteo, vista previa, becas y certificados. |
 | **Métricas de negocio** | Panel tipo fintech: MRR, LTV, CAC, cohortes, RFM y proyección, junto a un CRM de clientas con país, ingresos y estado. |
 | **Producto web a medida** | Themes con Blade, Tailwind y Vite; aplicaciones en Next.js y Angular; diseño de sistemas de diseño (tokens, componentes, reglas). |
@@ -18,19 +19,19 @@ No entrego pantallas sueltas: diseño el sistema completo, desde el modelo de da
 ## Cómo trabajo
 
 - **Primero el sistema, después la pantalla.** Contratos claros entre módulos, integraciones por adaptador y nada acoplado a un proveedor.
-- **Calidad medible.** TypeScript estricto, pruebas unitarias y de integración, y auditorías de seguridad, accesibilidad y velocidad antes de publicar.
+- **Calidad medible.** TypeScript estricto, pruebas unitarias, de integración y E2E, y auditorías de seguridad, accesibilidad y velocidad. «Se ve bien» no cuenta como criterio de aceptación.
 - **Entregas que se pueden deshacer.** Subidas por etapas pequeñas, copia de seguridad antes de cada una y verificación después.
 - **Accesibilidad como requisito.** Un solo `h1`, foco visible, etiquetas y texto alternativo en todo.
 - **Sin secretos en el código.** Claves en variables de entorno y toda salida escapada.
 
 ## Stack
 
-**Lenguajes:** TypeScript · PHP 8 · Rust · SQL
+**Lenguajes:** TypeScript · Java 21 · PHP 8 · Rust · SQL
 **Frontend:** React · Next.js · Angular · Tailwind CSS · Vite · PWA
-**Backend:** Node.js · Express · Zod · WordPress (Acorn/Blade) · WooCommerce · REST
-**Datos:** PostgreSQL · MariaDB/MySQL · Redis · Supabase
-**Operación:** Docker · Cloudflare · Nginx/PHP-FPM · cron · k6 · GitHub Actions
-**Calidad:** PHPUnit · Vitest · Jest · Lighthouse · pruebas E2E
+**Backend:** Spring Boot · Spring Security (JWT) · Flyway · Node.js · Express · Zod · WordPress (Acorn/Blade) · WooCommerce · REST
+**Datos:** PostgreSQL · MariaDB/MySQL · Redis
+**Operación:** Docker · Cloudflare · Nginx/PHP-FPM · cron · k6
+**Calidad:** PHPUnit · JUnit · Vitest · Jest · Playwright (E2E) · Lighthouse · puertas de calidad
 **Integraciones:** Stripe · PayPal · Google Calendar · Chatwoot · correo transaccional
 
 ## Contacto
