@@ -1,28 +1,40 @@
-# Hola, soy Ekko 👋
+# Ekko · Ingeniería de software de punta a punta
 
-**Ingeniero de software full-stack · 20+ años construyendo productos web**
-Arquitectura limpia, accesibilidad y rendimiento. Entrego rápido sin bajar la calidad.
+**20+ años construyendo productos web que se venden, escalan y se pueden mantener.**
+No entrego pantallas sueltas: diseño el sistema completo, desde el modelo de datos y los cobros hasta la interfaz accesible y la operación en producción.
 
-## En qué trabajo
+---
 
-- **Productos web modernos:** Next.js, React y TypeScript estricto.
-- **WordPress y WooCommerce a medida:** themes con Blade, Tailwind y Vite; plugins propios (membresías, reservas, LMS, métricas fintech).
-- **Comercio y suscripciones:** pagos, membresías, cobros recurrentes y panel de métricas (MRR, LTV, cohortes).
-- **Escala y operación:** caché, CDN, pruebas de carga y despliegues por etapas con respaldo.
+## Lo que construyo
+
+| Línea de trabajo | De qué se trata |
+|---|---|
+| **Comercio y membresías** | Suite de plugins propios para WooCommerce: membresías con derechos de acceso, reservas con Google Calendar, cobro por sesión, paquete o suscripción, y adaptadores de pago (Stripe y PayPal). |
+| **Plataformas de aprendizaje (LMS)** | Experiencias de curso en WordPress y en aplicaciones propias: contenido por módulos, goteo, vista previa, becas y certificados. |
+| **Métricas de negocio** | Panel tipo fintech: MRR, LTV, CAC, cohortes, RFM y proyección, junto a un CRM de clientas con país, ingresos y estado. |
+| **Producto web a medida** | Themes con Blade, Tailwind y Vite; aplicaciones en Next.js y Angular; diseño de sistemas de diseño (tokens, componentes, reglas). |
+| **Arquitectura a escala** | Diseños para altos volúmenes de pedidos (Rust + Node), trabajo sin conexión y sincronización (Electron), y pruebas de carga con k6. |
 
 ## Cómo trabajo
 
-| Principio | Qué significa en la práctica |
-|---|---|
-| Código sostenible | Contratos claros, módulos pequeños, pruebas donde importa |
-| Accesibilidad | Un solo `h1`, foco visible, etiquetas y `alt` en todo |
-| Seguridad | Sin secretos en el código; escapar toda salida |
-| Entregas reversibles | Etapas pequeñas, copia de seguridad antes de cada subida |
+- **Primero el sistema, después la pantalla.** Contratos claros entre módulos, integraciones por adaptador y nada acoplado a un proveedor.
+- **Calidad medible.** TypeScript estricto, pruebas unitarias y de integración, y auditorías de seguridad, accesibilidad y velocidad antes de publicar.
+- **Entregas que se pueden deshacer.** Subidas por etapas pequeñas, copia de seguridad antes de cada una y verificación después.
+- **Accesibilidad como requisito.** Un solo `h1`, foco visible, etiquetas y texto alternativo en todo.
+- **Sin secretos en el código.** Claves en variables de entorno y toda salida escapada.
 
 ## Stack
 
-`TypeScript` · `React` · `Next.js` · `PHP 8.3` · `WordPress` · `WooCommerce` · `Tailwind CSS` · `Vite` · `PostgreSQL` · `MySQL` · `Docker` · `GitHub Actions`
+**Lenguajes:** TypeScript · PHP 8 · Rust · SQL
+**Frontend:** React · Next.js · Angular · Tailwind CSS · Vite · PWA
+**Backend:** Node.js · Express · Zod · WordPress (Acorn/Blade) · WooCommerce · REST
+**Datos:** PostgreSQL · MariaDB/MySQL · Redis · Supabase
+**Operación:** Docker · Cloudflare · Nginx/PHP-FPM · cron · k6 · GitHub Actions
+**Calidad:** PHPUnit · Vitest · Jest · Lighthouse · pruebas E2E
+**Integraciones:** Stripe · PayPal · Google Calendar · Chatwoot · correo transaccional
 
 ## Contacto
 
 📫 fhcreativomultimedia@gmail.com
+
+> La mayor parte de mi trabajo está en repositorios privados. Escríbeme y te muestro casos reales.
